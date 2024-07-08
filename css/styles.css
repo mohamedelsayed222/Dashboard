@@ -1,0 +1,316 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    padding: 1rem;
+    text-align: center;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+main {
+    padding: 2rem 1rem;
+    margin-top: 100px; /* Adjust based on header height */
+}
+
+section {
+    margin-top: 1rem;
+}
+
+.login-container {
+    width: 300px;
+    margin: 100px auto;
+    padding: 2rem;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.login-container h2 {
+    text-align: center;
+    margin-bottom: 1rem;
+}
+
+.login-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+.login-container label {
+    margin-bottom: 0.5rem;
+}
+
+.login-container input {
+    margin-bottom: 1rem;
+    padding: 0.5rem;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.login-container button {
+    padding: 0.5rem;
+    border: none;
+    border-radius: 5px;
+    background-color: #4CAF50;
+    color: white;
+    cursor: pointer;
+}
+
+.login-container button:hover {
+    background-color: #45a049;
+}
+
+.message {
+    text-align: center;
+    margin-top: 1rem;
+}
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+.logo {
+    height: 50px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    background-color: #333;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    display: inline-block;
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.admin-info {
+    margin-right: 3%;
+}
+
+main {
+    padding: 2rem 1rem;
+    margin-top: 80px; /* Adjust based on header height */
+}
+
+section {
+    margin-top: 1rem;
+}
+
+.counts {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.count-box {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 2rem;
+    text-align: center;
+    width: 30%;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.count-box h3 {
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+.count-box p {
+    font-size: 2rem;
+    margin: 1rem 0 0;
+}
+.properties-list {
+    display: block;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.property-card {
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    /* width: 100%; */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.property-card img {
+    /* width: 300px; */
+    height: 200px;
+    /* display: flex; 
+    flex-direction: row; */
+    /* flex-wrap: wrap;    */
+    border-radius: 5px;
+}
+
+.property-card h3 {
+    margin: 0.5rem 0;
+    font-size: 1.2rem;
+}
+
+.property-card p {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+}
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+.identities-list {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.identity-card {
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    padding: 10px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    display:block;
+}
+
+.identity-card img {
+    width:200px;
+    display: inline;
+    height: 200;
+    margin-bottom: 10px;
+}
+
+.identity-card .user-info {
+    margin-bottom: 10px;
+}
+
+.identity-card .verification-buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px;
+}
+
+.identity-card .verification-buttons button {
+    padding: 8px 15px;
+    cursor: pointer;
+    border: none;
+    outline: none;
+    border-radius: 3px;
+}
+
+.identity-card .verify-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.identity-card .reject-btn {
+    background-color: #f44336;
+    color: white;
+}
+
+.alert {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 15px;
+    margin: 0;
+    border: 1px solid transparent;
+    border-radius: 0;
+    z-index: 1000;
+    text-align: center;
+    font-size: 16px;
+}
+.alert.success {
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+.alert.error {
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}
+
+.alert {
+    display: none;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    padding: 20px;
+    background-color: #f44336;
+    color: white;
+    text-align: center;
+    z-index: 1000;
+}
+.report-card {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px 0;
+}
+.report-card img {
+    max-width: 700px;
+    height: 400px;
+}
+.report-details {
+    display: none;
+}
+.form-container {
+    display: none;
+}

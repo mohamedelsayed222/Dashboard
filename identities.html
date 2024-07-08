@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Identities Page</title>
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+    <header>
+        <div class="navbar">
+            <img src="images/logo.png" alt="Sakkiny Logo" class="logo">
+            <nav>
+                <ul>
+                    <li><a href="index.html">Dashboard</a></li>
+                    <li><a href="properties.html">Properties</a></li>
+                    <li><a href="#users">Users</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="reports.html">Reports</a></li>
+                    <li><a href="#identities">Identities</a></li>
+                    <li><a href="#register-admin">Register Admin</a></li>
+                </ul>
+            </nav>
+            <div class="admin-info">
+                <span id="adminName"></span>
+            </div>
+        </div>
+    </header>
+    <div id="alertBox" class="alert"></div>
+    <div class="container">
+        <h1>Identities</h1>
+        <div id="identitiesList" class="identities-list">
+            <!-- Identity cards will be dynamically added here -->
+        </div>
+    </div>
+
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+    <script src="js/identities.js"></script>
+</body>
+</html>
